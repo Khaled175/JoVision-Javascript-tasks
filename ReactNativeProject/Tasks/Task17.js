@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Text, View, StyleSheet } from 'react-native';
 
-const Task16 = () => {
+const Task17 = () => {
   const [showName, setShowName] = useState(false);
 
   const toggleName = () => {
@@ -11,7 +11,7 @@ const Task16 = () => {
   return (
     <View style={styles.container}>
       <Button
-        title               = "Show"
+        title               = {showName ? 'Hide' : 'Show'}
         onPress             = {toggleName}
         accessibilityLabel  = {showName ? 'Tap to hide your name' : 'Tap to show your name'}
       />
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Task16;
+export default Task17;
