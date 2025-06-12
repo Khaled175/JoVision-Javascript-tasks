@@ -7,7 +7,7 @@
 
 import React from 'react';
 
-/*
+/**
 import Task16 from './Tasks/Task16';
 import Task17 from './Tasks/Task17';
 import Task18 from './Tasks/Task18';
@@ -17,13 +17,14 @@ import Task21 from './Tasks/Task21';
 import Task22 from './Tasks/Task22';
 import Task23 from './Tasks/Task23';
 import Task24 from './Tasks/Task24';
-*/
 import Task25 from './Tasks/Task25';
+*/
+import Task26 from './Tasks/Task26';
 
 function App(): React.JSX.Element {
 
   return (
-    /*
+    /**
     <Task16/>
     <Task17/>
     <Task18/>
@@ -33,8 +34,9 @@ function App(): React.JSX.Element {
     <Task22 />
     <Task23 />
     <Task24 />
-    */
     <Task25 />
+    */
+    <Task26 />
   );
 }
 
