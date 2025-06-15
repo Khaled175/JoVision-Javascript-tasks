@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.27.5",
+    "metro-react-native-babel-preset": "^0.77.0"
+  }
+}

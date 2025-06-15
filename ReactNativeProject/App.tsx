@@ -19,8 +19,9 @@ import Task23 from './Tasks/Task23';
 import Task24 from './Tasks/Task24';
 import Task25 from './Tasks/Task25';
 import Task26 from './Tasks/Task26';
-*/
 import Task27 from './Tasks/Task27';
+*/
+import Task28 from './Tasks/Task28';
 
 function App(): React.JSX.Element {
 
@@ -37,8 +38,9 @@ function App(): React.JSX.Element {
     <Task24 />
     <Task25 />
     <Task26 />
-    */
     <Task27 />
+    */
+    <Task28 />
   );
 }
 

@@ -4,40 +4,34 @@ module.exports = {
     '@react-native',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'eslint:recommended',
+    'plugin:react-native/all',
   ],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    babelOptions: {
+      presets: ['module:metro-react-native-babel-preset'],
+    },
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 2020,
+    sourceType: 'module',
   },
+  env: {
+    browser: true,
+    es2020: true,
+    node: true,
+    'react-native/react-native': true,
+  },
+  plugins: [
+    'react',
+    'react-native',
+  ],
   settings: {
     react: {
       version: 'detect',
     },
-  },
-  rules: {
-    'react/react-in-jsx-scope': 'off',
-    'react/jsx-uses-react': 'off',
-
-    'no-unused-vars': [
-      'warn',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
-      },
-    ],
-      '@typescript-eslint/no-unused-vars': [
-      'warn',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
-      },
-    ],
   },
 };
