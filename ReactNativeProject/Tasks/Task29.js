@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { View, Text, Image, FlatList, Pressable, Alert,
     StyleSheet, Modal, TextInput, TouchableOpacity, Button } from 'react-native';
 
-const Task28 = () => {
+const Task29 = () => {
     const imageData = [
         { id: '1' , source: require('../../Resource/img1.png' ) , alt: 'Image 1' },
         { id: '2' , source: require('../../Resource/img2.png' ) , alt: 'Image 2' },
@@ -257,4 +257,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Task28;
+export default Task29;
