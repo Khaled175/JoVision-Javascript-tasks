@@ -7,12 +7,12 @@
 
 import React from 'react';
 
-import Task39 from './Tasks/Task39';
+import Task40 from './Tasks/Task40';
 
 function App(): React.JSX.Element {
 
   return (
-    <Task39 />
+    <Task40 />
   );
 }
 
