@@ -6,13 +6,16 @@
  */
 
 import React from 'react';
+import { View, StyleSheet } from 'react-native';
 
-import Task40 from './Tasks/Task40';
+import Task41 from './Tasks/Task41';
 
 function App(): React.JSX.Element {
 
   return (
-    <Task40 />
+    <View style = {{ flex: 1}}>
+      <Task41 />
+    </View>
   );
 }
 
