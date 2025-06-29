@@ -8,13 +8,13 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import Task41 from './Tasks/Task41';
+import Task42 from './Tasks/Task42';
 
 function App(): React.JSX.Element {
 
   return (
     <View style = {{ flex: 1}}>
-      <Task41 />
+      <Task42 />
     </View>
   );
 }
